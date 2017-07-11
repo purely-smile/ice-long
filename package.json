@@ -1,0 +1,22 @@
+{
+  "name": "ice-long",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.ts --compilers ts:ts-node/register",
+    "build":"tsc -d"
+  },
+  "typings":"index.d.ts",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ice": "^3.6.3"
+  },
+  "devDependencies": {
+    "@types/assert": "0.0.31",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^8.0.10",
+    "assert": "^1.4.1"
+  }
+}
